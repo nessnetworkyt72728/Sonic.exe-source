@@ -139,6 +139,8 @@ jobs:
           haxelib run lime setup android
 
           haxelib run lime build android -final
+          
+          haxelib install newgrounds
 
           
 

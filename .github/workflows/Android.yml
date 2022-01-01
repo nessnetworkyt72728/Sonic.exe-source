@@ -130,7 +130,8 @@ jobs:
 
           haxelib list
 
-          
+          haxelib install newgrounds 
+
 
       - name: Build Log
 
@@ -138,11 +139,7 @@ jobs:
 
           haxelib run lime setup android
 
-          haxelib run lime build android -final
-          
-          haxelib install newgrounds
-
-          
+          haxelib run lime build android -final     
 
       - uses: actions/upload-artifact@v2
 
